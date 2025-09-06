@@ -2,7 +2,8 @@
   "compilerOptions": {
     "target": "ES2022",
     "lib": ["ES2022"],
-    "module": "node20",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "rootDir": "./src/",
     "outDir": "./dist/",
     "resolveJsonModule": true,
@@ -11,7 +12,8 @@
     "strict": true,
     "noImplicitAny": true,
     "skipLibCheck": true,
-    "noUncheckedIndexedAccess": true
+    "noUncheckedIndexedAccess": true,
+    "allowArbitraryExtensions": true
   },
 
   "include": ["src"]
