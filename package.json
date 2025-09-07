@@ -1,15 +1,23 @@
 {
   "name": "ipmyp",
-  "version": "0.2.0",
-  "description": "IP Information CLI App",
+  "version": "0.3.0",
+  "description": "Show System IP Information CLI App",
   "keywords": [
     "ip",
     "cli",
     "node",
-    "node.js"
+    "ipmyp"
   ],
   "author": "Ali Shariatian",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliShariatian/ipmyp-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AliShariatian/ipmyp-cli/issues"
+  },
+  "homepage": "https://github.com/AliShariatian/ipmyp-cli#readme",
   "type": "module",
   "main": "main.js",
   "scripts": {
