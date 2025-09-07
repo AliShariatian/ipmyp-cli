@@ -17,6 +17,7 @@
     "build": "tsc",
     "npm:link": "npm link",
     "npm:unlink": "npm un -g ipmyp",
+    "npm:publish": "npm publish --access public",
     "format": "prettier --ignore-unknown --write ."
   },
   "dependencies": {
